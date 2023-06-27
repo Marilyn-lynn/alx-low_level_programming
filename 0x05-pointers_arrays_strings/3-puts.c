@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * _puts - prints a string, followed by a new line, to stdout
- * @str: string to print
- */
-void _putchar(char *str)
+  * _puts - prints a string
+  * @str: string as parameter
+  */
+
+void _puts(char *str)
 {
 int index = 0;
 
