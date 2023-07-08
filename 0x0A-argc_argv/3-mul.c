@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
-* _atoi - program that multiplies two numbers
-* @s: string
-* Return: 1
-*/
+ * _atoi - program that multiplies two numbers
+ * @s: string
+ * Return: 1
+ */
 int _atoi(char *s)
 {
 int i, d, n, len, f, digit;
@@ -40,12 +40,12 @@ return (n);
 }
 
 /**
-* main - multiplies 2 numbers
-* @argc: number of arguments
-* @argv: arrays
-*
-* Return: 0
-*/
+ * main - multiplies 2 numbers
+ * @argc: number of arguments
+ * @argv: arrays
+ *
+ * Return: 0
+ */
 int main(int argc, char *argv[])
 {
 int result, num1, num2;
@@ -57,7 +57,7 @@ return (1);
 num1 = _atoi(argv[1]);
 num2 = _atoi(argv[2]);
 result = num1 *num2;
-printf(" % d\n", result);
+printf("%d\n", result);
 return (0);
 }
 
